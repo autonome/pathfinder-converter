@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+
+		/*
+    https://css-tricks.com/snippets/css/system-font-stack/
+    */
+		:root {
+			--system-ui: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+		}
+
+		* {
+			font-family: var(--system-ui);
+		}
+
+		/*
+		https://gist.github.com/JoeyBurzynski/617fb6201335779f8424ad9528b72c41
+		*/
+		html {
+			max-width: 70ch;
+			padding: 3em 1em;
+			margin: auto;
+			line-height: 1.75;
+			font-size: 1.25em;
+		}
+
+		h1,h2,h3,h4,h5,h6 {
+			margin: 3em 0 1em;
+		}
+
+		p,ul,ol {
+			margin-bottom: 2em;
+			color: #1d1d1d;
+		}
+
+    body {
+    }
+
+    textarea {
+      min-height: 20rem;
+      min-width: 20rem;
+    }
+
+  </style>
+<head>
+<body>
+
+<script type="module" src="uland-esm.js"></script>
+<script type="module" src="app.js"></script>
+</body>
+</html>
